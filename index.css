@@ -1,0 +1,105 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url("bg.svg");
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#whale1{
+  width: 40vw ;
+  position : relative ;
+  top : 7vw ;
+  right : -90vw ;
+}
+#whale2{
+  width: 40vw ;
+  position : relative ;
+  top : 7vw ;
+  right : -90vw ;
+}
+#body{
+  width: 35vw ;
+  position: fixed;
+  top : 15vw ;
+  left : 10vw ;
+}
+#front{
+  width: 12.5vw ;
+  position: fixed;
+  top : 15.9vw ;
+  left : 12.5vw ;
+}
+#back{
+  width: 14.3vw ;
+  position: fixed;
+  top : 18vw ;
+  left : 29.6vw ;
+}
+#background{
+  width: 70vw ;
+  position : relative ;
+  top : -8vw ;
+  right : -15vw ;
+}
+html {
+  font-size: 65% ;
+}
+#name{
+	font: 1.5vw Noto Sans TC;
+	color: white;
+}
+#nameb{
+	font: 1.5vw Noto Sans TC;
+	color: white;
+}
+#page_name {
+  width: 25vw;
+  height: 1vw ;
+  font: 3vw Noto Sans TC;
+  /*height: 5vw;*/
+  color: white;
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+  position: fixed;
+  top: 0vh;	
+  z-index:2;
+  
+}
+
+#arrow {
+  position: absolute;
+  top: 1vh;
+  left: -10vw;
+  width: 4vh;
+  /*height: 7vh;*/
+  z-index:2;
+
+}
+
+#intro {
+  position: absolute;
+  top: 1vh;
+  right: -10vw;
+  width: 6vh;
+  z-index:2;
+  /*height: 7vh;*/
+
+}
+
+
+@media screen and (min-width: 780px) {
+  #page_name {
+    font: 5vw;
+  }
+  #arrow {
+    left: -3vw;
+    width: 7vh;
+  }
+  #intro {
+    right: -3vw;
+    width: 10vh;
+  }
+}
